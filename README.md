@@ -13,4 +13,4 @@ Modules:
 3) Camera Module: Socket_client.py
 
 Run code when power the Raspberry Pi on:
-  sudo crontab -e
+\tsudo crontab -e
