@@ -12,5 +12,4 @@ Modules:
 2) RFID Module: Read_rfid.py
 3) Camera Module: Socket_client.py
 
-Run code when power the Raspberry Pi on:
-\tsudo crontab -e
+Run code when power the Raspberry Pi on:  sudo crontab -e
