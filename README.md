@@ -20,7 +20,7 @@ Modules:
 
 Run code when power the Raspberry Pi on:
 1) sudo crontab -e
-2) Add "@reboot python <mark>directory to the python file</mark> &" at the end of the file
+2) Add "@reboot python {directory to the python file} &" at the end of the file
 
 <br>
 
