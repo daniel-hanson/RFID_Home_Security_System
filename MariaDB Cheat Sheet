@@ -1,0 +1,26 @@
+/*
+	MariaDB Cheat Sheet
+*/
+
+
+CREATE DATABASE RFID_Home_Security;
+
+use RFID_Home_Security;
+
+CREATE TABLE IF NOT EXISTS RFID_Capstone (
+    id int(5) NOT NULL AUTO_INCREMENT,
+    cardid varchar(50) NOT NULL,
+    PRIMARY KEY(id)
+    );
+
+show columns in RFID_Capstone;
+
+INSERT INTO RFID_Capstone (cardid) VALUES ("163.136.169.137.11");
+
+SELECT * FROM RFID_Capstone;
+
+SHOW tables;
+
+DROP TABLE RFID_Capstone;
+
+
