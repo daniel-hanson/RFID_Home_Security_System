@@ -28,3 +28,4 @@ Raspberry Pi power on sequence: Central Hub -> RFID Module -> Camera Module
 
 <br>
 
+Access MariaDB: mysql -u pi -p
